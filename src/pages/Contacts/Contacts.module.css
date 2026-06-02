@@ -1,0 +1,19 @@
+.contacts {
+    width: 100%;
+}
+
+.hover_lift {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.hover_lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.hover_scale {
+    transition: transform 0.2s ease-in-out;
+}
+.hover_scale:hover {
+    transform: scale(1.1);
+}
+
+

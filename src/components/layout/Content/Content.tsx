@@ -8,7 +8,8 @@ import {
      Important,
      Advantages,
      Modal,
-     FormConnects
+     FormConnects,
+     Success
 } from "../../../pages";
 
 export default function Content(){
@@ -25,6 +26,7 @@ export default function Content(){
                     <Route path="/important" element={<Important/>}/>
                     <Route path="/advantages" element={<Advantages/>}/>
                     <Route path="/form-connects" element={<FormConnects/>}/>
+                    <Route path="/success" element={<Success/>}/>
                     <Route path="*" element={<NotFound/>}/>
                </Routes>
                {/* {

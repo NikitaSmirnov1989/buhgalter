@@ -6,3 +6,4 @@ export {default as Important} from "./Faq";
 export {default as Advantages} from "./Advantages";
 export {default as Modal} from "./Modal";
 export {default as FormConnects} from "./Form-connects";
+export {default as Success} from "./Success";

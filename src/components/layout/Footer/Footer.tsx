@@ -2,39 +2,54 @@ import styles from "./Footer.module.css";
 import { Logo } from "../../ui";
 
 export default function Footer() {
-    return  <footer className={styles.footer}>
-                <div className="container">
-                    <div className="row my-4 text-md-start text-sm-center">
-                        <h2 className="col-12 mb-4">
-                            Связь со мной
-                        </h2>
-                        <div className="col-12 col-md-3 mb-2">
-                            <p className="fw-bold mb-sm-1">
-                                Телефон:
-                            </p>
-                            <p>
-                                <a className="link-dark text-decoration-none" href="tel:+79060592259" >8 (906) 059-22-59</a>
-                                (с 10:00 до 20:00 МСК)
-                            </p>
-                        </div>
-                        <div className="col-12 col-md-3 mb-2">
-                            <p className="fw-bold mb-sm-1">Электронная почта:</p>
-                            <a href="mailto:slavorossovav@mail.ru" className="link-dark text-decoration-none">slavorossovav@mail.ru</a>
-                        </div>
-                        <div className="col-12 col-md-3 mb-2">
-                            <p className="fw-bold mb-sm-1">Адрес:</p>
-                            <p>РФ, г. Москва</p>
-                        </div>
-                        <div className="col-4 col-md-2 ms-md-auto mx-sm-auto mx-auto">
-                            <Logo/>
-                        </div>
-                        {/* <ul className="list-group text-start">
-                            <li className="list-group-item">8(910)456-68-21</li>
-                            <li className="list-group-item">slavorossovav@mail.ru</li>
-                            <li className="list-group-item"><Logo/></li>
-                        </ul> */}
-                        <p className="col-12 mt-4">2026 © Все права защищены</p>
-                    </div>
+    return  <footer className={`${styles.footer} bg-light py-5 border-top`}>
+    <div className="container">
+        <div className="row gy-4 justify-content-between align-items-start">
+            
+            {/*Заголовок футера*/}
+            <div className="col-12">
+                <h3 className="fw-bold mb-0 text-secondary">Связь со мной</h3>
+            </div>
+
+            {/*Контактные данные*/}
+            <div className="col-12 col-sm-6 col-md-3">
+                <div className="d-flex flex-column gap-1">
+                    <span className="text-muted small fw-semibold text-uppercase tracking-wider">Телефон</span>
+                    <a className="link-dark text-decoration-none fs-5 fw-medium" href="tel:+79060592259">
+                        8 (906) 059-22-59
+                    </a>
+                    <span className="text-muted small">Ежедневно с 9:00 до 21:00</span>
                 </div>
-            </footer>
+            </div>
+
+            {/*Электронная почта*/}
+            <div className="col-12 col-sm-6 col-md-3">
+                <div className="d-flex flex-column gap-1">
+                    <span className="text-muted small fw-semibold text-uppercase tracking-wider">Электронная почта</span>
+                    <a href="mailto:slavorossovav@mail.ru" className="link-dark text-decoration-none fs-5 fw-medium text-break">
+                        slavorossovav@mail.ru
+                    </a>
+                </div>
+            </div>
+
+            {/*Адрес*/}
+            <div className="col-12 col-sm-6 col-md-3">
+                <div className="d-flex flex-column gap-1">
+                    <span className="text-muted small fw-semibold text-uppercase tracking-wider">Адрес</span>
+                    <address className="fs-5 fw-medium mb-0 text-dark">
+                        РФ, г. Москва
+                    </address>
+                </div>
+            </div>
+
+            <div className="col-12 pt-4 mt-4 border-top d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2">
+                <p className="text-muted small mb-0">2026 © Все права защищены</p>
+                <p className="text-muted small mb-0">Разработано с душой</p>
+            </div>
+
+        </div>
+    </div>
+</footer>
 }
+
+/*col-4 col-md-2 ms-md-auto mx-sm-auto mx-auto*/

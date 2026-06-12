@@ -1,3 +1,7 @@
-.important {
+.faq {
     width: 100%;
+}
+
+.faq_button_animation {
+    transition: all 0.2s ease-in-out;
 }

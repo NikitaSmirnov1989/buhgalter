@@ -29,14 +29,5 @@ export default function Content(){
                     <Route path="/success" element={<Success/>}/>
                     <Route path="*" element={<NotFound/>}/>
                </Routes>
-               {/* {
-                    prevLocation &&
-                    <Routes>
-                        <Route 
-                              path="/modal" 
-                              element={<Modal title="Модальное окно" children="Модальное окно" onClose={() => navigate(-1)}/>}
-                         />
-                    </Routes>
-               } */}
             </div>
 }

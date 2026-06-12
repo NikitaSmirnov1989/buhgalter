@@ -1,5 +1,6 @@
 import styles from "./Toast.module.css";
 import { ToastProps } from "./type";
+import { Button } from "../../ui";
 
 export default function Toast({onClose}: ToastProps){
     const style = {
@@ -19,13 +20,14 @@ export default function Toast({onClose}: ToastProps){
                             </p>
                         </div>
                         <div className="d-flex gap-2 align-items-center">
-                            <button 
+                            <Button 
                                 type="button" 
                                 className="btn btn-primary btn-sm text-nowrap" 
                                 onClick={()=> onClose()}
+                                disabled={false}
                                 >
                             Принять всё
-                            </button>
+                            </Button>
                         </div>
                     </div>
                 </div>

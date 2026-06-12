@@ -18,11 +18,6 @@ export default function Header(){
                             </nav>
                         </div>
                     </div>
-                   {/*  <div className="row">
-                        <div className="col-12">
-                            <Theme/>
-                        </div>
-                    </div> */}
                 </div>
             </header>
 }

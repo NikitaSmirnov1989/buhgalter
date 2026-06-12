@@ -6,12 +6,10 @@ export default function Footer() {
     <div className="container">
         <div className="row gy-4 justify-content-between align-items-start">
             
-            {/*Заголовок футера*/}
             <div className="col-12">
                 <h3 className="fw-bold mb-0 text-secondary">Связь со мной</h3>
             </div>
 
-            {/*Контактные данные*/}
             <div className="col-12 col-sm-6 col-md-3">
                 <div className="d-flex flex-column gap-1">
                     <span className="text-muted small fw-semibold text-uppercase tracking-wider">Телефон</span>
@@ -22,7 +20,6 @@ export default function Footer() {
                 </div>
             </div>
 
-            {/*Электронная почта*/}
             <div className="col-12 col-sm-6 col-md-3">
                 <div className="d-flex flex-column gap-1">
                     <span className="text-muted small fw-semibold text-uppercase tracking-wider">Электронная почта</span>
@@ -32,7 +29,6 @@ export default function Footer() {
                 </div>
             </div>
 
-            {/*Адрес*/}
             <div className="col-12 col-sm-6 col-md-3">
                 <div className="d-flex flex-column gap-1">
                     <span className="text-muted small fw-semibold text-uppercase tracking-wider">Адрес</span>
@@ -51,5 +47,3 @@ export default function Footer() {
     </div>
 </footer>
 }
-
-/*col-4 col-md-2 ms-md-auto mx-sm-auto mx-auto*/

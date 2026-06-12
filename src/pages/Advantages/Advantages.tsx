@@ -32,25 +32,16 @@ export default function Advantages(){
     ];
     const [list, setList] = useState(listInitial);
     const navigate = useNavigate();
-    const location = useLocation();
-    const handleNavigate = () => {
-      navigate('/form-connects', { state: { prevLocation: location } });
-    };
-
+   
     return  <div className={styles.advantages}>
                 <div className="container">
                         <div className="text-center mb-3">
-                            {/* Акцентный надзаголовок с аналогичным трекингом */}
                             <span className="text-primary fw-bold text-uppercase small d-block mb-2" style={{ letterSpacing: '0.075rem' }}>
                                 Почему выбирают меня
                             </span>
-                            
-                            {/* Главный заголовок с аналогичным размером display-5 */}
                             <h2 className="display-5 text-dark mb-3">
                                 Преимущества работы <span className="text-primary">(со мной)</span>
                             </h2>
-                            
-                            {/* Поясняющий текст с аналогичной адаптивной шириной */}
                             <p className="text-muted col-md-8 col-lg-6 mx-auto small">
                                 Профессиональный подход к вашим финансам. Узнайте, какие ценности и стандарты качества я гарантирую каждому клиенту в повседневной работе.
                             </p>
@@ -72,13 +63,9 @@ export default function Advantages(){
                                                                     url={item.url}
                                                                 />
                                                             </div>
-
-                                                            {/* Заголовок */}
                                                             <h3 className="card-title h5 mb-3 fw-semibold text-primary">
                                                                 {item.title}
                                                             </h3>
-                                                            
-                                                            {/* Описание */}
                                                             <p className="text-muted small mb-0 flex-grow-1">
                                                                 {item.description}
                                                             </p>
@@ -87,7 +74,7 @@ export default function Advantages(){
                                                     </div>
                                                 </li>}/>
                                                 <Button
-                                                    onClick={() => handleNavigate()}
+                                                    onClick={() => navigate('/form-connects')}
                                                     disabled={false}
                                                     type="button"
                                                     children="Оставить заявку"

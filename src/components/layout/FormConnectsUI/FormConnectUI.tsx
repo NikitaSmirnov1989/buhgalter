@@ -33,7 +33,6 @@ export default function FormConnectsUI(props: FormConnectionsUIProps){
                 </h4>
 
                 <form onSubmit={(e) => e.preventDefault()}>
-                    {/* Поле: Имя */}
                     <div className="mb-4 text-start">
                         <label htmlFor="validationServer01" className="form-label small fw-semibold text-secondary mb-2">
                             Введите имя
@@ -58,7 +57,6 @@ export default function FormConnectsUI(props: FormConnectionsUIProps){
                         )}
                     </div>
 
-                    {/* Поле: Телефон */}
                     <div className="mb-4 text-start">
                         <label htmlFor="validationServer02" className="form-label small fw-semibold text-secondary mb-2">
                             Введите номер телефона
@@ -77,19 +75,7 @@ export default function FormConnectsUI(props: FormConnectionsUIProps){
                                 setTelephoneTouched(true);
                             }}
                             />
-                        {/* <input 
-                            placeholder="8(901)-123-56-66"
-                            type="text"
-                            className={`form-control form-control-lg fs-6 rounded-3 px-3 py-2.5 shadow-none ${
-                                telephoneTouched ? (telephoneValid ? 'is-valid' : 'is-invalid') : 'bg-light border-0'
-                            }`} 
-                            id="validationServer02"
-                            value={telephone}
-                            onChange={(e) => {
-                                setTelephone(e.target.value);
-                                setTelephoneTouched(true);
-                            }}
-                        /> */}
+
                         {telephoneTouched && (
                             telephoneValid 
                                 ? <div className="valid-feedback ps-1">Отлично</div> 
@@ -97,16 +83,15 @@ export default function FormConnectsUI(props: FormConnectionsUIProps){
                         )}
                     </div>
 
-                    {/* Кнопка отправки на всю ширину карточки */}
                     <div className="d-grid mt-4">
-                        <button 
+                        <Button 
                             className={`btn btn-lg py-3 fw-semibold rounded-3 shadow-sm transition-all ${!buttonDisabled ? "btn-secondary opacity-50" : "btn-primary"}`} 
                             type="submit" 
                             disabled={!buttonDisabled}
-                            onClick={() => console.log(telephone)}
+                            onClick={() => console.log(/*Кнопка временно не работает*/)}
                         >
                             Отправить данные
-                        </button>
+                        </Button>
                     </div>
                 </form>
             </div>

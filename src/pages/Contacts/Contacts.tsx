@@ -35,7 +35,7 @@ export default function Contacts(){
                                 <div className="bg-success bg-opacity-10 text-success rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style={{ width: '60px', height: '60px' }}>
                                     <Image url={email} alt="Адрес электронной почты" width="30px" height="30px" objectFit="cover" />
                                 </div>
-                                <h5 className="text-muted small text-uppercase fw-bold mb-2">E-mail</h5>
+                                <h5 className="text-muted small text-uppercase fw-bold mb-2">Электронная почта</h5>
                                 <a className="stretched-link text-dark text-decoration-none fw-semibold fs-5 text-break" href="mailto:slavorossovav@mail.ru">
                                     slavorossovav@mail.ru
                                 </a>
@@ -56,25 +56,19 @@ export default function Contacts(){
                         </div>
                     </div>
     
-                    <div className="row justify-content-center">
-                        <div className="col-12 text-center mb-3">
-                            <span className="text-muted small text-uppercase fw-bold tracking-wider">Социальные сети</span>
-                        </div>
-                        <div className="col-auto d-flex gap-3 justify-content-center">
-                            <a href="#" className={`btn btn-light shadow-sm rounded-circle d-flex align-items-center justify-content-center p-0 ${styles.hover_scale}`} style={{ width: '50px', height: '50px' }} aria-label="Facebook">
-                                <Image url={fb} alt="Фейсбук" width="24px" height="24px" objectFit="cover" />
-                            </a>
-                            <a href="#" className={`btn btn-light shadow-sm rounded-circle d-flex align-items-center justify-content-center p-0 ${styles.hover_scale}`} style={{ width: '50px', height: '50px' }} aria-label="Instagram">
-                                <Image url={ins} alt="Инстаграмм" width="24px" height="24px" objectFit="cover" />
-                            </a>
-                            <a href="#" className={`btn btn-light shadow-sm rounded-circle d-flex align-items-center justify-content-center p-0 ${styles.hover_scale}`} style={{ width: '50px', height: '50px' }} aria-label="Twitter">
-                                <Image url={twit} alt="Твиттер" width="24px" height="24px" objectFit="cover" />
-                            </a>
-                            <a href="#" className={`btn btn-light shadow-sm rounded-circle d-flex align-items-center justify-content-center p-0 ${styles.hover_scale}`} style={{ width: '50px', height: '50px' }} aria-label="Linkedin">
-                                <Image url={linkedin} alt="Linkedin" width="24px" height="24px" objectFit="cover" />
-                            </a>
+                   <div className="row justify-content-center">
+                        <div className="col-12 col-md-8 text-center">
+                            <div className="p-3 bg-light rounded-4 d-inline-block border shadow-sm px-4">
+                                <span className="text-dark fw-semibold d-block d-md-inline mb-2 mb-md-0 me-md-3">
+                                    Время работы: Ежедневно, с 9:00 до 21:00 (по МСК)
+                                </span>
+                                <span className="text-muted small d-block d-md-inline">
+                                    Ответ на email в течение 2 часов
+                                </span>
+                            </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
 }

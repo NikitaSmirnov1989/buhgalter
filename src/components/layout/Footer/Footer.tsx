@@ -16,7 +16,7 @@ export default function Footer() {
                     <a className="link-dark text-decoration-none fs-5 fw-medium" href="tel:+79060592259">
                         8 (906) 059-22-59
                     </a>
-                    <span className="text-muted small">Ежедневно с 9:00 до 21:00</span>
+                    <span className="text-muted small">Ежедневно, с 9:00 до 21:00 (по МСК)</span>
                 </div>
             </div>
 

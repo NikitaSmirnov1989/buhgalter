@@ -56,7 +56,7 @@ export default function Contacts(){
                         </div>
                     </div>
     
-                   <div className="row justify-content-center">
+                   <div className="row justify-content-center mb-5">
                         <div className="col-12 col-md-8 text-center">
                             <div className="p-3 bg-light rounded-4 d-inline-block border shadow-sm px-4">
                                 <span className="text-dark fw-semibold d-block d-md-inline mb-2 mb-md-0 me-md-3">
@@ -65,6 +65,19 @@ export default function Contacts(){
                                 <span className="text-muted small d-block d-md-inline">
                                     Ответ на email в течение 2 часов
                                 </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row justify-content-center">
+                        <div className="col-12 col-md-8 text-center">
+                            <div className="p-3 bg-light rounded-4 d-inline-block border shadow-sm px-4 text-dark fw-semibold fs-4">
+                                <div className="mb-4">
+                                    ИНН: <span className="fw-normal">773379017612</span>
+                                </div>
+                                <div className="">
+                                    ОГРНИП: <span className="fw-normal">324774600647706</span>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -41,7 +41,7 @@ export default function Services(){
                                     </div>
                                     <div className="text-center bg-body-tertiary rounded-3 p-3 mb-4">
                                         <span className="text-secondary small d-block mb-1">Цена пакета</span>
-                                        <span className="fs-3 fw-bold text-primary">от 3 500 ₽</span>
+                                        <span className="fs-3 fw-bold text-primary">от 13 500 ₽</span>
                                         <span className="text-muted small"> / мес.</span>
                                     </div>
                                     <div className="mb-4 flex-grow-1">
@@ -80,7 +80,7 @@ export default function Services(){
                                     </div>
                                     <div className="text-center bg-body-tertiary rounded-3 p-3 mb-4">
                                         <span className="text-secondary small d-block mb-1">Цена пакета</span>
-                                        <span className="fs-3 fw-bold text-primary">от 5 000 ₽</span>
+                                        <span className="fs-3 fw-bold text-primary">от 15 000 ₽</span>
                                         <span className="text-muted small"> / мес.</span>
                                     </div>
                                     <div className="mb-4 flex-grow-1">
@@ -119,7 +119,7 @@ export default function Services(){
                                     </div>
                                     <div className="text-center bg-body-tertiary rounded-3 p-3 mb-4">
                                         <span className="text-secondary small d-block mb-1">Цена пакета</span>
-                                        <span className="fs-3 fw-bold text-primary">от 18 000 ₽</span>
+                                        <span className="fs-3 fw-bold text-primary">от 28 000 ₽</span>
                                         <span className="text-muted small"> / мес.</span>
                                     </div>
                                     <div className="mb-4 flex-grow-1">
@@ -170,7 +170,7 @@ export default function Services(){
                                             <p className="text-muted small mb-2">
                                                 Если прошлый бухгалтер бросил базу или допустил критические ошибки
                                             </p>
-                                            <span className="badge bg-light text-dark border fw-medium fs-6">от 10 000 ₽ / усл.</span>
+                                            <span className="badge bg-light text-dark border fw-medium fs-6">от 20 000 ₽ / усл.</span>
                                         </div>
 
                                         <div className="list-group-item px-0 py-3">
@@ -180,7 +180,7 @@ export default function Services(){
                                             <p className="text-muted small mb-2">
                                                 Полное воссоздание учета за прошлые кварталы или годы
                                             </p>
-                                            <span className="badge bg-light text-dark border fw-medium fs-6">от 9 000 ₽ / усл.</span>
+                                            <span className="badge bg-light text-dark border fw-medium fs-6">от 20 000 ₽ / усл.</span>
                                         </div>
                                     </div>
                                     <Button
@@ -203,17 +203,17 @@ export default function Services(){
                                             <p className="text-muted small mb-2">
                                                 Расчет выплат и ведение отчетности за одного сотрудника
                                             </p>
-                                            <span className="badge bg-light text-dark border fw-medium fs-6">от 1 000 ₽ / сотр.</span>
+                                            <span className="badge bg-light text-dark border fw-medium fs-6">от 5 000 ₽ / сотр.</span>
                                         </div>
                                         <div className="list-group-item px-0 py-3">
                                             <h5 className="mb-1 h6 fw-bold text-dark">Ведение первичной документации</h5>
                                             <p className="text-muted small mb-2">Систематизация и ввод актов, накладных, счетов-фактур</p>
-                                            <span className="badge bg-light text-dark border fw-medium fs-6">от 300 ₽ / усл.</span>
+                                            <span className="badge bg-light text-dark border fw-medium fs-6">от 1 000 ₽ / усл.</span>
                                         </div>
                                         <div className="list-group-item px-0 py-3">
                                             <h5 className="mb-1 h6 fw-bold text-dark">Налоговое консультирование</h5>
                                             <p className="text-muted small mb-2">Разбор и решение сложных вопросов, оптимизация нагрузок</p>
-                                            <span className="badge bg-light text-dark border fw-medium fs-6">от 2 000 ₽ / усл.</span>
+                                            <span className="badge bg-light text-dark border fw-medium fs-6">от 5 000 ₽ / усл.</span>
                                         </div>
                                     </div>
                                     <Button
@@ -234,17 +234,17 @@ export default function Services(){
                                         <div className="list-group-item px-0 py-3">
                                             <h5 className="mb-1 h6 fw-bold text-dark">Сдача декларации 3-НДФЛ</h5>
                                             <p className="text-muted small mb-2"> Подготовка и отправка отчетности для физических лиц и ИП</p>
-                                            <span className="badge bg-light text-dark border fw-medium fs-6">от 1 500 ₽ / усл.</span>
+                                            <span className="badge bg-light text-dark border fw-medium fs-6">от 3 000 ₽ / усл.</span>
                                         </div>
                                         <div className="list-group-item px-0 py-3">
                                             <h5 className="mb-1 h6 fw-bold text-dark">Заполнение КУДиР</h5>
                                             <p className="text-muted small mb-2">Составление книги учёта доходов и расходов (отдельная услуга)</p>
-                                            <span className="badge bg-light text-dark border fw-medium fs-6">от 3 000 ₽ / усл.</span>
+                                            <span className="badge bg-light text-dark border fw-medium fs-6">от 5 000 ₽ / усл.</span>
                                         </div>
                                         <div className="list-group-item px-0 py-3">
                                             <h5 className="mb-1 h6 fw-bold text-dark">Сдача разовой отчётности</h5>
                                             <p className="text-muted small mb-2">Формирование и отправка отдельных отчетов по требованию</p>
-                                            <span className="badge bg-light text-dark border fw-medium fs-6">от 3 000 ₽ / усл.</span>
+                                            <span className="badge bg-light text-dark border fw-medium fs-6">от 5 000 ₽ / усл.</span>
                                         </div>
                                     </div>
                                     <Button
